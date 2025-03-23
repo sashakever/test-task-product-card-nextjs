@@ -14,7 +14,6 @@ type Props = {
 };
 
 const ProductCard: FC<Props> = ({className, product}) => {
-    console.log('product -> ', product)
   const {
     selectedVariant,
     mainImage,
