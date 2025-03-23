@@ -1,10 +1,9 @@
 import {
-  ImageConnection,
   Product,
   ProductVariant,
-} from '@shopify/hydrogen/storefront-api-types';
+} from '@shopify/hydrogen-react/storefront-api-types';
 import {useState} from 'react';
-import {ImageType} from '~/types';
+import {ImageType} from '@/shared/types';
 
 const useProductCard = (product: Product) => {
   const [selectedVariant, setSelectedVariant] = useState<
